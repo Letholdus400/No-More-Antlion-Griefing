@@ -1,0 +1,3 @@
+displayName = No More Antlion Griefing
+author = Letholdus
+version = 1.0

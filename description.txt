@@ -1,0 +1,7 @@
+Are you tired of your desert biome becoming a complete mess because of antlions? Well do I have a mod for you!
+
+This mod prevents the sand projectile fired by antlions (or other modded enemies that shoot it) from creating a sand block.
+
+The sandgun and sand placed the player still work as normal.
+
+If there are any issues with the mod, please submit them at https://github.com/Letholdus400/No-More-Antlion-Griefing/issues
