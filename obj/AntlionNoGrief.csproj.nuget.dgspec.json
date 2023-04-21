@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\AntlionNoGrief\\AntlionNoGrief.csproj": {}
+    "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\AntlionNoGrief\\AntlionNoGrief.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\AntlionNoGrief\\AntlionNoGrief.csproj": {
+    "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\AntlionNoGrief\\AntlionNoGrief.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\AntlionNoGrief\\AntlionNoGrief.csproj",
+        "projectUniqueName": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\AntlionNoGrief\\AntlionNoGrief.csproj",
         "projectName": "AntlionNoGrief",
-        "projectPath": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\AntlionNoGrief\\AntlionNoGrief.csproj",
+        "projectPath": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\AntlionNoGrief\\AntlionNoGrief.csproj",
         "packagesPath": "C:\\Users\\kiern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\AntlionNoGrief\\obj\\",
+        "outputPath": "C:\\Users\\kiern\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\AntlionNoGrief\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kiern\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "net45": {
+            "targetAlias": "net45",
             "projectReferences": {}
           }
         },
@@ -37,13 +38,8 @@
       },
       "frameworks": {
         "net45": {
-          "dependencies": {
-            "tModLoader.CodeAssist": {
-              "target": "Package",
-              "version": "[0.1.*, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "targetAlias": "net45",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

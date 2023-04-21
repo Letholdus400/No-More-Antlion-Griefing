@@ -1,6 +1,8 @@
 using Terraria;
 using Terraria.ID;
+using Terraria.Audio;
 using Terraria.ModLoader;
+using ReLogic.Utilities;
 
 namespace AntlionNoGrief
 {
@@ -12,8 +14,8 @@ namespace AntlionNoGrief
 			//antlion projectiles are the same as falling sand, but are not friendly
 			if (projectile.type == ProjectileID.SandBallFalling && !projectile.friendly)
 			{
-				//since the projectile isn't killed, play the sound now
-				Main.PlaySound(SoundID.Dig, projectile.position);
+                //since the projectile isn't killed, play the sound now
+                SoundEngine.PlaySound(SoundID.Dig, projectile.position);
 				//returning false skips the vanilla kill code
 				return false;
             }
